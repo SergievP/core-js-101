@@ -209,8 +209,7 @@ function extractEmails(str) {
  */
 function getRectangleString(width, height) {
   const horizontalLine = '─';
-  const verticalLine = '|';
-
+  const verticalLine = '│';
 
   const insideWidth = width - 2;
   const insideHeight = height - 2;
